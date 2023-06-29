@@ -72,7 +72,7 @@ To process LaTeX, all files must be in a zip file, similar to the `*.gz` files y
 Like PDF, first start Grobid using the `run_grobid.sh` script. Then, try to process one of the test files available under `tests/latex/`. For example, you can try:
 
 ```console
-python doc2json/tex2json/process_tex.py -i test/latex/1911.02782.gz -t temp_dir/ -o output_dir/
+python doc2json/tex2json/process_tex.py -i tests/latex/1911.02782.gz -t temp_dir/ -o output_dir/
 ```
 
 Again, this will produce a JSON file in the specified `output_dir`.
